@@ -1,41 +1,533 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="Author" content="Mike Xie">
+<html lang="en">
+<head>
     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Mike Xie | About Me</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.gif">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
 
-
-	<!-- Jquery -->
- 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
- 		
- 	<!-- Bootstrap -->
- 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
- 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
- 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-
-
- 	<script>
- 
- 	</script>
-    <title>Hello!</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">Testing Index Page</h3>
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+    <header id="header" role="banner">
+        <div class="container">
+            <div id="navbar" class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#main-slider"><i class="icon-home"></i></a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#relevant-experience">Experience</a></li>
+                        <li><a href="#leadership">Leadership</a></li>
+                        <li><a href="#relevant-coursework">Relevant Coursework</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="panel-body">
-          <a class="btn btn-default btn-lg btn-default">Go! PHP</a>
+    </header><!--/#header-->
+
+    <section id="main-slider" class="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-content">
+                        <h2>I'm Mike Xie. A third-year college student from Rensselaer Polytechnic Institute</h2>
+                        
+                    </div>
+                </div>
+            </div><!--/.item-->
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-content">
+                    	<h2>I'm looking for a summer internship program in Web or Software Development</h2>
+                        
+<!--                         <p class="lead">the developer of a complex Web-based system</p> -->
+                    </div>
+                </div>
+            </div><!--/.item-->
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-content">
+                        <h2>I'm self-motivated, attentive to detail, and hard-working</h2>
+                    </div>
+                </div>
+            </div><!--/.item-->
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-content">
+                        <a href="./resume.pdf"><h4 class="lead">This site aggregates all my projects, experience, skills, and course work. It serves as a supplement to my resume, which you can download by clicking here</h4></a>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.carousel-inner-->
+        <a class="prev" href="#main-slider" data-slide="prev"><i class="icon-angle-left"></i></a>
+        <a class="next" href="#main-slider" data-slide="next"><i class="icon-angle-right"></i></a>
+    </section><!--/#main-slider-->
+
+    <section id="skills">
+        <div class="container">
+            <div class="box first">
+                <div class="row">
+                	<div class="center gap">
+                    	<h2>Skills</h2>
+                	</div><!--/.center-->
+                	
+                	<div class="row">
+	                    <div class="col-md-3">
+	                        <div class="center">
+	                            <i class="icon-md icon-color1"></i>
+	                        </div>
+	                    </div><!--/.col-md-4-->
+	                    <div class="col-md-9">
+	                        <h4>C++, C#, Javascript, Visual Basic, Python, PHP, C, Apex, Java, Matlab, Prolog</h4>
+	                    </div>
+                    </div>
+                    <div class="row">
+	                    <div class="col-md-3">
+	                        <div class="center">
+	                            <i class="icon-md icon-color2"></i>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-9">
+	                    	<h4>HTML, CSS, SQL, SPARSQL, RDF/OWL, JQuery, JQueryUI, NUnit, RhinoMocks, GIT, SVN, Jenkins</h4>
+	                    </div>
+                    </div>
+                    <div class="row">
+	                    <div class="col-md-3">
+	                        <div class="center">
+	                            <i class="icon-md icon-color5"></i>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-9">
+	                        <h4>ASP.NET Web Form, ASP.NET MVC, Laravel, TurboGears, Django, Express, NodeJs, Bootstrap</h4>
+	                    </div>
+                    </div>
+                    <div class="row">
+	                    <div class="col-md-3">
+	                        <div class="center">
+	                            <i class="icon-md icon-color4"></i>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-9">
+	                        <h4>Visual Studio, Eclipse, CodeBlock, Salesforce 1 Platform, Windows 7, Ubuntu, Linux</h4>
+	                    </div>
+                    </div>
+                    <div class="row">
+	                    <div class="col-md-3">
+	                        <div class="center">
+	                            <i class="icon-md icon-color3"></i>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-9">
+	                     	<h4>Fluent Chinese (Mandarin), Fluent English</h4>
+	                    </div>
+                    </div>
+                </div><!--/.row-->
+                
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section>
+    
+    <section id="projects">
+    	<div class="container">
+    		<div class="box">
+    			<div class="center gap">
+                    <h2>Projects</h2>
+                </div><!--/.center-->
+                
+                <div class="center">
+                	<h3>Repurposing Drugs</h3>
+                	<p>
+                		A research project I participated in the Tetherless World Constellation at RPI. The project focuses on discovering new promising treatments to diseases by gathering and integrating existing data using sementic technologies.
+                	</p>
+                	<p>
+                		We are developing an application that leverages linked data to try to discover useful interations between diseases, proteins, phenotypes, etc. Technologies such as OWL, SPARQL Queries, Bigdata database, SADI(Semantic Automated Discovery and Integration) Framework.
+                	</p>
+                	<p>I'm responsible for developing the backend of the application using Python, TurboGears framework, SPARQL, and Bigdata database</p>
+                	Site link: <a href="http://redrugs.tw.rpi.edu">http://redrugs.tw.rpi.edu</a>
+                </div>
+                <div class="row">
+	    			<div class="portfolio-item apps col-md-4 center">
+	    				
+		                <div class="item-inner">
+		                    <div class="portfolio-image">
+		                        <img src="images/projects/full/Redrugs1.jpg" alt="">
+		                        <div class="overlay">
+		                            <a class="preview btn btn-danger btn-lg " title="Redrgus - Treatment discovery using semantics technology" href="images/projects/full/Redrugs1.jpg"><i class="icon-eye-open"></i></a>             
+		                        </div>
+		                    </div>
+		                </div>
+	                </div>
+	                <div class="portfolio-item apps col-md-4 center">
+		                <div class="item-inner">
+		                    <div class="portfolio-image">
+		                        <img src="images/projects/full/Redrugs2.jpg" alt="">
+		                        <div class="overlay">
+		                            <a class="preview btn btn-danger btn-lg " title="Redrgus - Treatment discovery using semantics technology" href="images/projects/full/Redrugs2.jpg"><i class="icon-eye-open"></i></a>             
+		                        </div>
+		                    </div>
+		                </div>
+	                </div>
+	                <div class="portfolio-item apps col-md-4 center">
+		                <div class="item-inner">
+		                    <div class="portfolio-image">
+		                        <img src="images/projects/full/Redrugs3.jpg" alt="">
+		                        <div class="overlay">
+		                            <a class="preview btn btn-danger btn-lg " title="Redrgus - Treatment discovery using semantics technology" href="images/projects/full/Redrugs3.jpg"><i class="icon-eye-open"></i></a>             
+		                        </div>
+		                    </div>
+		                </div>
+	                </div>
+                </div>
+                
+                <hr />
+                
+                <div class="center">
+                	<h3>Question Tosser</h3>
+                	<p>An open source project I just started this semester. I came up the idea because there are a lot of students who are too shy to ask questions in class and later they forget about the questions. 
+                	I believe asking the questions actively is the best way to learn. That's why there should be an application should help quiet students to ask questions more actively and openly. </p>
+                	<p>Question Tosser is built with ASP.NET MVC and SignalR technologies with WebSockets under the cover. Other technologies used include: C#, Javascript, AJAX, JQuery, MySQL, etc.</p>
+                	Github link: <a href="https://github.com/mikeogod/QuestionTosser">https://github.com/mikeogod/QuestionTosser</a>
+                </div>
+                <div class="row">
+	    			<div class="portfolio-item apps col-md-4 center">
+	    				
+		                <div class="item-inner">
+		                    <div class="portfolio-image">
+		                        <img src="images/projects/full/uPost1.jpg" alt="">
+		                        <div class="overlay">
+		                            <a class="preview btn btn-danger btn-lg " title="uPost - social network aggregator" href="images/projects/full/uPost1.jpg"><i class="icon-eye-open"></i></a>             
+		                        </div>
+		                    </div>
+		                </div>
+	                </div>
+	                <div class="portfolio-item apps col-md-4 center">
+		                <div class="item-inner">
+		                    <div class="portfolio-image">
+		                        <img src="images/projects/full/uPost2.jpg" alt="">
+		                        <div class="overlay">
+		                            <a class="preview btn btn-danger btn-lg " title="Lorem ipsum dolor sit amet" href="images/projects/full/uPost2.jpg"><i class="icon-eye-open"></i></a>             
+		                        </div>
+		                    </div>
+		                </div>
+	                </div>
+	                <div class="portfolio-item apps col-md-4 center">
+		                <div class="item-inner">
+		                    <div class="portfolio-image">
+		                        <img src="images/projects/full/uPost3.jpg" alt="">
+		                        <div class="overlay">
+		                            <a class="preview btn btn-danger btn-lg " title="Lorem ipsum dolor sit amet" href="images/projects/full/uPost3.jpg"><i class="icon-eye-open"></i></a>             
+		                        </div>
+		                    </div>
+		                </div>
+	                </div>
+                </div>
+                
+                <hr />
+                
+               	<div class="center">
+                	<h3>uPost</h3>
+    				<p>A social network integrator I developed with classmates as an API meshup project. It allows the user to simultaneously push their announcements to multiple social network sites. Facebook, Twitter, and LinkedIn. 
+    				We used APIs provided by Facebook, Twitter, and LinkedIn, and technologies such as PHP, Javascript, Bootstrap, JQuery, MySQL, and Apache. </p>
+    				<p>My responsibilities include API meshing, login for Facebook and Twitter, pushing updates to Facebook and Twitter, and front-end development.</p>
+    				Site link: <a href="http://upost.herokuapp.com">http://upost.herokuapp.com</a> <br />
+    				Github Link: <a href="https://github.com/Aarons100/uPost">https://github.com/Aarons100/uPost</a>
+   				</div>
+    			<div class="row">
+	    			<div class="portfolio-item apps col-md-4 center">
+	    				
+		                <div class="item-inner">
+		                    <div class="portfolio-image">
+		                        <img src="images/projects/full/uPost1.jpg" alt="">
+		                        <div class="overlay">
+		                            <a class="preview btn btn-danger btn-lg " title="uPost - social network aggregator" href="images/projects/full/uPost1.jpg"><i class="icon-eye-open"></i></a>             
+		                        </div>
+		                    </div>
+		                </div>
+	                </div>
+	                <div class="portfolio-item apps col-md-4 center">
+		                <div class="item-inner">
+		                    <div class="portfolio-image">
+		                        <img src="images/projects/full/uPost2.jpg" alt="">
+		                        <div class="overlay">
+		                            <a class="preview btn btn-danger btn-lg " title="uPost - social network aggregator" href="images/projects/full/uPost2.jpg"><i class="icon-eye-open"></i></a>             
+		                        </div>
+		                    </div>
+		                </div>
+	                </div>
+	                <div class="portfolio-item apps col-md-4 center">
+		                <div class="item-inner">
+		                    <div class="portfolio-image">
+		                        <img src="images/projects/full/uPost3.jpg" alt="">
+		                        <div class="overlay">
+		                            <a class="preview btn btn-danger btn-lg " title="uPost - social network aggregator" href="images/projects/full/uPost3.jpg"><i class="icon-eye-open"></i></a>             
+		                        </div>
+		                    </div>
+		                </div>
+	                </div>
+                </div>
+    		</div>
+    	</div>
+    </section>
+    
+    <section id="education">
+        <div class="container">
+            <div class="box">
+                <div class="center gap">
+                    <h2>Education</h2>
+                </div><!--/.center-->
+                <div class="center gap well">
+                	<h3>Rensselaer Polytechnic Institute (2012 - Current)</h3>
+                	<h4>BS. Computer Science, Information Technology Dual Major</h4>
+                	<h4>GPA: 3.8 / 4.0 | CS Major Area GPA: 3.95 / 4.0</h4>
+                </div>
+                <div class="center gap well">
+                	<h3>Newton North High School (2010 - 2012)</h3>
+                	<h4>GPA: 4.09 / 4.0</h4>
+                </div>
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section>
+
+    <section id="relevant-experience">
+        <div class="container">
+            <div class="box">
+                <div class="center">
+                    <h2>Relevant Experience</h2>
+                    <p class="lead">Below are my work experience and project experience</p>
+                </div><!--/.center-->   
+                <div class="big-gap"></div>
+                <div class="row">
+                    <div class="col-md-6 gap">
+                        <span><b>Backend Web Developer</b></span> (RPI Tetherless World Constellation) Troy, New York                      
+                        <ul>
+                        	
+	                        <li>December 2014 - Current</li>
+							<li>Developing the backend of semantic search engine with Python and SPARQL to help drug research</li>
+							<li>Leveraging linked data to query and discover relationships between different diseases and drugs</li>
+						</ul>
+                    </div><!--/.col-sm-4-->
+                    <div class="col-md-6 gap">
+                        <span><b>Full-stack Web Developer</b></span> (Rensselaer Center for Open Source Software) 
+                        <ul>
+	                        <li>Jan 2015 – Present</li>
+							<li>Creating a real-time classroom collaboration application using ASP.NET, C#, Javascript, and SignalR</li>
+							<li>Communicating to professors to participate in the future beta testing in the start of next semester</li>
+                        </ul>
+                    </div><!--/.col-sm-4-->
+                    <div class="col-md-6 gap">
+                        <span><b>Web Developer Intern</b></span> (The Travelers Companies) Hartford, Connecticut Area                  
+                        <ul>
+	                        <li>June 2014 – Aug 2014 </li>
+							<li>Developed a claim-handling application with ASP.NET and Javascript to facilitate business integration</li>
+							<li>Collaborated with other developers using SVN and Jenkins for Continuous Integration development</li>
+                        </ul>
+                    </div><!--/.col-sm-4-->
+                    <div class="col-md-6 gap">
+                        <span><b>Software Developer Intern</b></span> (iSoftStone) Kirkland, Washington
+                        <ul>
+	                        <li>May 2013 – Aug 2013</li>
+							<li>Developed a data-syncing integration system using Apex to save hours of meeting time for employees</li>
+							<li>Wrote tech specs and user/admin guide to ensured project maintainability and extensibility</li>
+                        </ul>
+                    </div><!--/.col-sm-4-->
+                </div> 
+            </div> 
         </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-body">
-          
+    </section><!--/#pricing-->
+
+    <section id="leadership">
+        <div class="container">
+            <div class="box">
+                <div class="center">
+                    <h2>Leadership Activities</h2>
+                </div>
+                
+                <div class="gap"></div>
+                <div class="row">
+                	<div class="col-md-6 gap">
+                		<h4>CSSA Eboard Officer - Head of Media Promotion Department</h4>
+                		<ul>
+                			<li>Nov 2012 - Present</li>
+                			<li>Developed and maintained a new club website using WordPress</li>
+                			<li>Maintained the club’s old site by posting activity announcements, photos for activities of the organization</li>
+                			<li>Conducted poster design, distribution, and video editing for various celebratory events</li>
+                		</ul>
+                	</div>
+                	<div class="col-md-6 gap">
+                		<h4>ALAC TA/Mentor (RPI Advising & Learning Assistance Center)</h4>
+                		<ul>
+                			<li>Jan 2014 – May 2014</li>
+                			<li>Assisted students with homework and lab work of CS I (Python) and CS II (C++)</li>
+                			<li>Mentored students in CS I, supported the TAs during their office hours</li>
+                		</ul>
+                	</div>
+                </div>
+                
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section>
+    
+    <section id="relevant-coursework">
+        <div class="container">
+            <div class="box">
+                <div class="center">
+                    <h2>Relevant Coursework</h2>
+                </div>
+                <div class="gap"></div>
+                <div class="row">
+                	<div class="col-sm-4 gap">
+                        <ul class="courses center">
+	                        <li>Programming Languages</li>
+							<li>Intro to Artificial Intelligence</li>
+							<li>Database Systems</li>
+							<li>Software Design & Documentation</li>
+							<li>Managing IT Resource</li>
+							<li>Operating Systems</li>
+                        </ul>
+                    </div><!--/.col-sm-4-->
+                    <div class="col-sm-4 gap">
+                        <ul class="courses center">
+	                        <li>Web Science</li>
+							<li>Intro to Algorithms</li>
+							<li>Data Structures</li>
+							<li>Web System Development</li>
+							<li>Foundation of Computer Science</li>
+							<li>Intro to Logic</li>
+                        </ul>
+                    </div><!--/.col-sm-4-->
+                    <div class="col-sm-4 gap">
+                        
+                        <ul class="courses center">
+	                        <li>Computer Optimzation</li>
+							<li>Programming in Python</li>
+							<li>Programming in Java</li>
+							<li>Computer Science I</li>
+							<li>Intro to ITWS</li>
+                        </ul>
+                    </div><!--/.col-sm-4-->
+                </div>
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="box last">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1>Contact Me</h1>
+                        <p>I'm currently looking for summer internship for 2015. Please contact me if you have positions available.</p>
+                        <div class="status alert alert-success" style="display: none"></div>
+                        <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" placeholder="Email address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-danger btn-lg">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!--/.col-sm-6-->
+                    <div class="col-sm-6">
+                        <h1>My Addresses</h1>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <address>
+                                    <strong>Campus Address</strong><br>
+                                    1536 Bouton Rd. Left<br>
+                                    Troy, New York 12180<br>
+                                    <abbr title="Phone">P:</abbr> (617) 386-9538
+                                </address>
+                            </div>
+                            <div class="col-md-6">
+                                <address>
+                                    <strong>Home Address</strong><br>
+                                    236 Cypress St<br>
+                                    Brookline, MA 02445<br>
+                                    <abbr title="Phone">P:</abbr> (617) 386-9538
+                                </address>
+                            </div>
+                        </div>
+                        <h1>Other links: </h1>
+                        <div class="row">
+<!--                             <div class="col-md-6"> -->
+<!--                                 <ul class="social"> -->
+<!--                                     <li><a href="#"><i class="icon-facebook icon-social"></i> Facebook</a></li> -->
+<!--                                     <li><a href="#"><i class="icon-google-plus icon-social"></i> Google Plus</a></li> -->
+<!--                                     <li><a href="#"><i class="icon-pinterest icon-social"></i> Pinterest</a></li> -->
+<!--                                 </ul> -->
+<!--                             </div> -->
+                            <div class="col-md-6">
+                                <ul class="social">
+                                    <li><a href="http://www.linkedin.com/pub/mike-xie/57/40a/9b4/"><i class="icon-linkedin icon-social"></i> Linkedin</a></li>
+                                    <li><a href="https://github.com/mikeogod"><i class="icon-github icon-social"></i> GitHub</a></li>
+<!--                                     <li><a href="#"><i class="icon-twitter icon-social"></i> Twitter</a></li> -->
+<!--                                     <li><a href="#"><i class="icon-youtube icon-social"></i> Youtube</a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--/.col-sm-6-->
+                </div><!--/.row-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#contact-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <img class="pull-right" src="images/shapebootstrap.png" alt="ShapeBootstrap" title="ShapeBootstrap">
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </body>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>
